@@ -1,7 +1,8 @@
 const reverseWord = (word) => word.split("").reverse().join("");
 
 const capitalizeWord = (word) =>
-  word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+
+   word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
 
 const repeatWord = (word, times) => word.repeat(times);
 
@@ -41,7 +42,7 @@ document.getElementById("operation").addEventListener("change", function () {
 
 // Event listener for transform button
 document
-
+  
   .getElementById("transformButton")
-
-  .addEventListener("click", runTransformation);
+  
+  .addEventListener("click", runTransformation);;
